@@ -5,7 +5,7 @@
 1. `pnpm install`
 2. `pnpm biome lint`
 
-It will hang now. CPU usage will spike to 100% and it will until memory runs out.
+It will hang now. CPU usage will spike to 100% and nothing will happen until memory runs out.
 
 Problematic file is `queue.ts`.
 
